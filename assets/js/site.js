@@ -19,6 +19,14 @@
     reveals.forEach(function (el) { io.observe(el); });
   }
 
+  var map = document.querySelector('.lageskizze');
+  if (map) {
+    var mq = window.matchMedia('(max-width: 40rem)');
+    var full = map.getAttribute('viewBox');
+    var zoom = function () { map.setAttribute('viewBox', mq.matches ? '300 60 420 560' : full); };
+    zoom(); mq.addEventListener ? mq.addEventListener('change', zoom) : mq.addListener(zoom);
+  }
+
   var links = document.querySelectorAll('.nav a[href^="#"]');
   var byId = {};
   links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
