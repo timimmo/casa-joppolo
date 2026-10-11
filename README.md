@@ -35,7 +35,7 @@ Beide als WOFF2, nur der lateinische Zeichensatz. Lizenztexte liegen in `assets/
 
 ## Bilder und Zeichnungen
 
-Fotos liegen als `assets/img/<name>-<breite>.webp` in zwei bis drei Breiten (480, 960, bei großen Motiven die Originalbreite, nie hochskaliert), einheitlich leicht entsättigt, Metadaten entfernt. Die Fotos und der Grundriss stammen vom Eigentümer (Inserat und Flyer) und sind eine Zwischenlösung bis zu Originalen in voller Auflösung. Die Lageskizze unter „Arrivare“ ist ein Inline-SVG, aus Koordinaten gezeichnet, schematisch.
+Fotos liegen als `assets/img/<name>-<breite>.webp` in zwei bis drei Breiten (480, 960, bei großen Motiven die Originalbreite, nie hochskaliert), einheitlich leicht entsättigt, Metadaten entfernt. Die Fotos und der Grundriss stammen vom Eigentümer (Inserat und Flyer) und sind eine Zwischenlösung bis zu Originalen in voller Auflösung. Die Lageskizze unter „Arrivare“ ist ein Inline-SVG, aus Koordinaten gezeichnet, schematisch. Die fünf Illustrationen (`assets/img/spot-*.webp`) sind KI-generiert im Stil der italienischen Reiseplakate der 1930er und im Impressum als solche genannt.
 
 ## Quellen
 
