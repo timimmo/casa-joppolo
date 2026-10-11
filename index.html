@@ -12,496 +12,299 @@
 <meta property="og:description" content="Zwei Wohnungen und ein altes Dorfhaus über dem Tyrrhenischen Meer in Joppolo, Kalabrien. Für Auszeiten, Workation und Freunde.">
 <meta property="og:image" content="https://timimmo.github.io/casa-joppolo/assets/img/og.jpg">
 <meta property="og:locale" content="de_DE">
-<meta name="theme-color" content="#f3eee3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121418" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f7f2e9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1420" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/bodoni-moda-latin-normal-400-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bodoni-moda-latin-italic-400-900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-<div class="wrap">
 
 <header class="masthead">
-  <a class="brand" href="#top">Casa Joppolo<small>Joppolo · Costa degli Dei · Kalabrien</small></a>
+  <a class="brand" href="#top">Casa Joppolo</a>
   <nav aria-label="Seitennavigation">
-    <ul class="nav label">
-      <li><a href="#ort">Ort</a></li>
-      <li><a href="#haus">Haus</a></li>
-      <li><a href="#loft">Loft</a></li>
-      <li><a href="#freunde">Freunde</a></li>
-      <li><a href="#anreise">Anreise</a></li>
-      <li><a href="#umgebung">Umgebung</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-      <li class="draft">Entwurf · Oktober 2026</li>
+    <ul class="nav">
+      <li><a href="#paese">Il paese</a></li>
+      <li><a href="#casa">La casa</a></li>
+      <li><a href="#loft">Il loft</a></li>
+      <li><a href="#amici">Gli amici</a></li>
+      <li><a href="#arrivare">Come arrivare</a></li>
+      <li><a href="#dintorni">I dintorni</a></li>
+      <li><a href="#contatti">Contatti</a></li>
     </ul>
   </nav>
+  <span class="draft">Entwurf, Oktober 2026</span>
 </header>
 
 <main id="top">
 
 <section class="hero">
-  <h1>Kalabrien ist nicht <em>die Toskana.</em></h1>
-  <p class="lead hero-lead">Casa Joppolo: zwei Wohnungen und ein altes Dorfhaus hoch über dem Tyrrhenischen Meer, an der Costa degli Dei. Für Auszeiten von ein paar Wochen bis zu ein paar Monaten. In der Anfangszeit vor allem für Freunde.</p>
-  <p class="hero-meta label">
-    <span>89863 Joppolo</span>
-    <span>Provinz Vibo Valentia</span>
-    <span>Costa degli Dei, Kalabrien</span>
-  </p>
+  <h1>Kalabrien ist nicht <em>die&nbsp;Toskana.</em></h1>
+  <p class="lead">Casa Joppolo: zwei Wohnungen und ein altes Dorfhaus hoch über dem Tyrrhenischen Meer, an der Costa degli Dei. Für Auszeiten von ein paar Wochen bis zu ein paar Monaten. In der Anfangszeit vor allem für Freunde.</p>
+  <p class="meta">89863 Joppolo, Provinz Vibo Valentia</p>
 
-  <figure class="horizon">
-    <div class="pan">
-    <svg viewBox="0 0 1200 320" role="img" aria-labelledby="horizon-title">
-      <title id="horizon-title">Schematische Zeichnung des Blicks von der Dachterrasse, von West nach Ost: der Bergrücken, hinter dem der Stromboli liegt, die Liparischen Inseln Vulcano, Lipari, Salina, Panarea und Basiluzzo, die sizilianischen Berge mit dem Ätna dahinter, die Straße von Messina, das Aspromonte, der Containerhafen von Gioia Tauro und der Sandstrand von Nicotera Marina. Im Vordergrund die Dächer von Joppolo.</title>
-      <!-- Meer -->
-      <rect class="sea" x="0" y="200" width="1200" height="52"/>
-      <!-- Ferne: Ätna hinter den sizilianischen Bergen -->
-      <path class="far" d="M568 200 L604 156 L640 200"/>
-      <!-- Westlicher Bergrücken, 45 Grad ins Meer -->
-      <path class="line" d="M0 140 L42 145 L84 152 L132 200"/>
-      <!-- Liparische Inseln -->
-      <path class="line" d="M160 200 L178 190 L196 200"/>
-      <path class="line" d="M212 200 L232 186 L252 189 L268 200"/>
-      <path class="line" d="M286 200 L306 180 L322 186 L338 178 L358 200"/>
-      <path class="line" d="M378 200 L390 194 L402 200"/>
-      <path class="line" d="M412 200 L418 197 L424 200"/>
-      <!-- Sizilianische Berge -->
-      <path class="thin" d="M470 200 L520 188 L570 191 L610 184 L660 189 L700 193 L740 200"/>
-      <!-- Straße von Messina: Strommast und Leuchtfeuer -->
-      <path class="thin" d="M766 200 V184"/>
-      <circle class="here" cx="766" cy="183" r="2.2"/>
-      <!-- Aspromonte -->
-      <path class="line" d="M790 200 L840 162 L890 146 L940 158 L1000 200"/>
-      <!-- Kräne von Gioia Tauro -->
-      <path class="thin" d="M1004 200 V182 H1014 M1020 200 V178 H1032 M1038 200 V183 H1046"/>
-      <!-- Horizont -->
-      <path class="line" d="M0 200 H1200"/>
-      <!-- Sandstrand Nicotera Marina -->
-      <path class="beach" d="M1082 201.5 H1200"/>
-      <!-- Dächer von Joppolo -->
-      <path class="roof" d="M0 320 V270 L26 254 L54 266 V282 L92 282 L118 258 L150 276 V262 L188 240 L226 262 V288 L262 288 L292 266 L330 236 L372 262 V282 L412 282 L436 268 L470 282 V294 L540 294 L562 274 L598 288 V270 L634 254 L674 276 V292 L722 292 L752 270 L792 286 V266 L830 248 L868 266 V290 L912 290 L948 262 L982 280 L1016 284 L1052 256 L1088 272 V294 L1132 294 L1162 270 L1200 282 V320 Z"/>
-      <circle class="here" cx="330" cy="236" r="4"/>
-      <!-- Beschriftung -->
-      <g class="lbl">
-        <text x="8" y="118">Bergrücken, fällt mit 45° ins Meer</text>
-        <text x="8" y="132" class="small">dahinter der Stromboli, nur vom Lungomare zu sehen</text>
-        <text x="200" y="164">Liparische Inseln</text>
-        <text x="200" y="178" class="small">Vulcano, Lipari, Salina, Panarea, Basiluzzo</text>
-        <text x="560" y="138">Ätna, 110 km</text>
-        <text x="560" y="152" class="small">bei sehr guter Sicht hinter den sizilianischen Bergen</text>
-        <text x="850" y="126">Aspromonte</text>
-        <text x="850" y="140" class="small">bis 2.000 m hoch</text>
-        <text x="766" y="222" text-anchor="middle" class="small">Straße von Messina, nachts ein rotes Leuchtfeuer</text>
-        <text x="20" y="240" class="small">Tyrrhenisches Meer</text>
-        <text x="600" y="242" text-anchor="middle" class="small">Golf von Gioia Tauro</text>
-        <text x="930" y="224" class="small">Containerhafen Gioia Tauro, nachts hell erleuchtet</text>
-        <text x="1196" y="242" text-anchor="end" class="small">Sandstrand von Nicotera Marina</text>
-        <text x="342" y="240" class="small">Dachterrasse</text>
-      </g>
-    </svg>
-    </div>
-    <figcaption class="horizon-caption">
-      <span>Der Blick von der Dachterrasse, von West nach Ost. Schematisch, nicht maßstäblich.</span>
-      <span>Bellevue</span>
-    </figcaption>
-    <div class="horizon-legend">
-      <span class="label">Von links nach rechts</span>
-      <ol>
-        <li>Bergrücken, dahinter der Stromboli</li>
-        <li>Liparische Inseln: Vulcano, Lipari, Salina, Panarea, Basiluzzo</li>
-        <li>Sizilianische Berge, dahinter der Ätna (110 km, bei klarer Sicht)</li>
-        <li>Straße von Messina, nachts ein rotes Leuchtfeuer</li>
-        <li>Aspromonte, bis 2.000 m</li>
-        <li>Containerhafen Gioia Tauro</li>
-        <li>Sandstrand von Nicotera Marina</li>
-      </ol>
-    </div>
+  <figure class="bleed">
+    <img src="assets/img/blick-golf-1362.webp"
+         srcset="assets/img/blick-golf-480.webp 480w, assets/img/blick-golf-960.webp 960w, assets/img/blick-golf-1362.webp 1362w"
+         sizes="100vw" width="1362" height="768" fetchpriority="high"
+         alt="Blick über rote Ziegeldächer auf den Golf von Gioia Tauro, die grüne Küste und einen langen hellen Sandstrand.">
+    <figcaption>Der Blick vom Küchenfenster auf den Golf von Gioia Tauro. Hinten der lange Sandstrand von Nicotera Marina.</figcaption>
   </figure>
 
-  <dl class="facts">
-    <div><dt>Zum Bahnhof</dt><dd><span class="num">12–15</span> Minuten zu Fuß bergab, 15 bis 20 bergauf. Hundert Höhenmeter.</dd></div>
-    <div><dt>Das Loft</dt><dd><span class="num">50</span> m², zwei Zimmer, möbliert, Schreibtisch mit Meerblick.</dd></div>
-    <div><dt>Supermarkt</dt><dd><span class="num">300</span> Meter, mit Frischetheke.</dd></div>
-    <div><dt>Flughäfen</dt><dd><span class="num">2</span> in Reichweite: Lamezia Terme und Reggio Calabria, Joppolo liegt dazwischen.</dd></div>
-    <div><dt>Von Berlin</dt><dd>Rund <span class="num">1.600</span> Kilometer nach Süden.</dd></div>
-    <div><dt>Internet</dt><dd><span class="num">5G</span> über das eigene Handy. WLAN gibt es nicht.</dd></div>
-  </dl>
+  <div class="col" style="margin-top:var(--space-s)">
+    <p class="motto">Hundert Höhenmeter über dem Bahnhof, dreihundert Meter vom Supermarkt, sechzehnhundert Kilometer südlich von Berlin. Zwei Flughäfen in Reichweite. 5G statt WLAN.</p>
+  </div>
 </section>
 
-<section class="section" id="ort">
-  <p class="index label"><span class="n">01</span><span class="l">Der Ort</span></p>
-  <h2>Ein etwas vergessener Ort an der <em>Götterküste.</em></h2>
-  <div class="main prose">
+<section class="section" id="paese">
+  <div class="head">
+    <span class="it">Il paese</span>
+    <h2>Ein etwas vergessener Ort an der <em>Götterküste.</em></h2>
+  </div>
+  <div class="col">
     <p class="lead">Joppolo liegt in der Mitte der Südwestküste der Costa degli Dei, der Götterküste, in einer wilden, grünen Landschaft, in der alles zu gedeihen scheint. Perfekt zur Sonne ausgerichtet, mit Blick auf die Stiefelspitze, Sizilien und die Liparischen Inseln.</p>
     <p>Wegen des Felsbrockenstrandes ist der Ort deutlich weniger touristisch als die Nordwestküste zwischen Capo Vaticano und Pizzo mit ihren Sandbuchten. Dafür gibt es hier noch eine starke lokale Gemeinschaft: Auf der Straße grüßt man sich, ein „Ciao“ oder „Salve“ und ein paar Worte zum Wetter gehören dazu. Dazu Norditaliener mit Ferienhäusern, Argentinier mit italienischen Wurzeln, die zurückkommen, und die Anfänge einer kleinen deutschen Community.</p>
     <p>Und ja, Kalabrien ist nicht die Toskana. In und um Joppolo gehören Bauruinen, Müllablagerungen und marode Infrastruktur zum Bild. Dazwischen spektakuläre Landschaft, verwunschene Orte, tolle Strände und jede Menge Lost Places. Wer Perfektion sucht, ist hier falsch. Wer Potenzial sieht, richtig.</p>
+    <p>In den Vatikanischen Museen ist Joppolo auf alten Karten als „Geopoli“ eingezeichnet. Das Internet weiß praktisch nichts über den Ort. Vielleicht gibt es da noch etwas zu entdecken.</p>
   </div>
-  <aside class="aside">
-    <p><span class="label">Auf alten Karten</span>In den Vatikanischen Museen ist Joppolo auf alten Karten als „Geopoli“ eingezeichnet. Das Internet weiß praktisch nichts über den Ort. Vielleicht gibt es da noch etwas zu entdecken.</p>
-    <p><span class="label">Dschibuti-Zeit</span>Süditalien liegt weit östlich in der mitteleuropäischen Zeitzone, im Winter wird es schon um 17 Uhr dunkel. Tims Trick: die Armbanduhr zwei Stunden vorstellen und so tun, als wäre man in der Zeitzone von Dschibuti. Dann wird es um 8 hell und um 19 dunkel. Für Züge und Verabredungen zeigt das Handy weiter die normale Zeit.</p>
-  </aside>
-  <figure class="wide reveal">
+  <figure class="bleed reveal">
     <img src="assets/img/ort-dorf-1362.webp"
          srcset="assets/img/ort-dorf-480.webp 480w, assets/img/ort-dorf-960.webp 960w, assets/img/ort-dorf-1362.webp 1362w"
-         sizes="(min-width: 56rem) 70vw, 95vw" width="1362" height="768" loading="lazy" decoding="async"
+         sizes="100vw" width="1362" height="768" loading="lazy" decoding="async"
          alt="Die Dächer von Joppolo mit dem Kirchturm, dahinter das Meer, im Vordergrund blühende Sträucher und ein Baum.">
-    <figcaption><span>Die Altstadt von Joppolo vom Wanderweg Mare e Monti. Das Haus liegt links unterhalb der Kirche.</span><span>Joppolo</span></figcaption>
+    <figcaption>Die Altstadt von Joppolo vom Wanderweg Mare e Monti. Das Haus liegt links unterhalb der Kirche.</figcaption>
   </figure>
-  <div class="wide grid-2 reveal">
+  <div class="pair reveal">
     <figure>
       <img src="assets/img/ort-haeuser-1363.webp"
            srcset="assets/img/ort-haeuser-480.webp 480w, assets/img/ort-haeuser-960.webp 960w, assets/img/ort-haeuser-1363.webp 1363w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="1363" height="768" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1363" height="768" loading="lazy" decoding="async"
            alt="Häuser von Joppolo am bewaldeten Hang, im Vordergrund ein Ziegeldach, rechts das Meer.">
-      <figcaption><span>Blick über die Oberstadt.</span><span>Joppolo</span></figcaption>
+      <figcaption>Blick über die Oberstadt.</figcaption>
     </figure>
     <figure>
       <img src="assets/img/ort-strasse-1365.webp"
            srcset="assets/img/ort-strasse-480.webp 480w, assets/img/ort-strasse-960.webp 960w, assets/img/ort-strasse-1365.webp 1365w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="1365" height="768" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1365" height="768" loading="lazy" decoding="async"
            alt="Der alte Hauptplatz mit alten Fassaden, geschlossenen Rollläden und großen Bäumen.">
-      <figcaption><span>Der alte Hauptplatz, oberhalb des Hauses.</span><span>Joppolo</span></figcaption>
+      <figcaption>Der alte Hauptplatz, oberhalb des Hauses.</figcaption>
     </figure>
+  </div>
+  <div class="col" style="margin-top:var(--space-s)">
+    <p><span class="runin">Ora di Gibuti.</span> Süditalien liegt weit östlich in der mitteleuropäischen Zeitzone, im Winter wird es schon um 17 Uhr dunkel. Tims Trick: die Armbanduhr zwei Stunden vorstellen und so tun, als wäre man in der Zeitzone von Dschibuti. Dann wird es um 8 hell und um 19 dunkel. Für Züge und Verabredungen zeigt das Handy weiter die normale Zeit.</p>
   </div>
 </section>
 
-<section class="section" id="haus">
-  <p class="index label"><span class="n">02</span><span class="l">Das Haus</span></p>
-  <h2>Zwei Ebenen, ein Dorfhaus, eine <em>Dachterrasse.</em></h2>
-  <div class="main prose">
+<section class="section" id="casa">
+  <div class="head">
+    <span class="it">La casa</span>
+    <h2>Zwei Ebenen, ein Dorfhaus, eine <em>Dachterrasse.</em></h2>
+  </div>
+  <div class="col">
     <p class="lead">Das Stadthaus, 2024 gekauft, hat zwei Ebenen, die getrennt genutzt werden. Nebenan steht seit 2025 das alte Dorfhaus. Drei Namen, drei Charaktere.</p>
+    <p><span class="runin">Bellevue.</span> Die obere Wohnung, an der Via Roma. Heißt so wegen des Panoramas: Golf von Gioia Tauro, Sizilien, die Liparischen Inseln. Oben drauf die Dachterrasse mit provisorischer Pergola, Sonnensegel und Hängematte. Die Möblierung dort ist noch nicht abgeschlossen, Ideen willkommen.</p>
+    <p><span class="runin">Loft.</span> Die untere Ebene an der ehemaligen Via Borgo, heute Traversa di Largo Lanzari. Getauft wegen der hohen Räume und der großen Wohnküche. Auch hier Meerblick. Das Loft wird ab und zu für längere Auszeiten und Workation vermietet, <a href="#loft">mehr dazu unten</a>.</p>
+    <p><span class="runin">Rustico.</span> Das etwas verfallene alte Haus direkt nebenan, 2025 dazugekauft. Wegen seiner Ursprünglichkeit so getauft. Dient als Gästezimmer, Werkstatt und Lager, und für künftige Renovierungsträume.</p>
   </div>
-  <aside class="aside">
-    <figure>
-      <img src="assets/img/haus-fassade-1024.webp"
-           srcset="assets/img/haus-fassade-480.webp 480w, assets/img/haus-fassade-960.webp 960w, assets/img/haus-fassade-1024.webp 1024w"
-           sizes="(min-width: 56rem) 22vw, 95vw" width="1024" height="1816" loading="lazy" decoding="async"
-           alt="Die Hausfassade: helles Haus mit Balkon, Fensterläden und oben dem Geländer der Dachterrasse vor blauem Himmel.">
-      <figcaption><span>Die Fassade nach Süden, zum Meer. Wird irgendwann frisch gestrichen, dann kommt der Bauhausstil wieder raus.</span><span>Stadthaus</span></figcaption>
-    </figure>
-  </aside>
-
-  <ul class="units wide">
-    <li class="unit">
-      <p class="name"><small>Obere Wohnung</small>Bellevue</p>
-      <p>Liegt an der Via Roma und heißt so wegen des Panoramas: Golf von Gioia Tauro, Sizilien, die Liparischen Inseln. Oben drauf die Dachterrasse mit provisorischer Pergola, Sonnensegel und Hängematte. Die Möblierung dort ist noch nicht abgeschlossen, Ideen willkommen.</p>
-      <dl><dt>Lage</dt><dd>Obere Ebene, an der Via Roma</dd><dt>Dazu</dt><dd>Dachterrasse, Panorama</dd></dl>
-    </li>
-    <li class="unit">
-      <p class="name"><small>Untere Wohnung</small>Loft</p>
-      <p>Die untere Ebene an der ehemaligen Via Borgo, getauft wegen der hohen Räume und der großen Wohnküche. Auch hier Meerblick. Das Loft wird ab und zu für längere Auszeiten und Workation vermietet, <a href="#loft">mehr dazu unten</a>.</p>
-      <dl><dt>Lage</dt><dd>Untere Ebene, Traversa di Largo Lanzari 11</dd><dt>Größe</dt><dd>50 m², zwei Zimmer</dd></dl>
-    </li>
-    <li class="unit">
-      <p class="name"><small>Dorfhaus</small>Rustico</p>
-      <p>Das etwas verfallene alte Haus nebenan, 2025 dazugekauft. Wegen seiner Ursprünglichkeit „Rustico“ getauft. Dient als Gästezimmer, Werkstatt und Lager, und für künftige Renovierungsträume.</p>
-      <dl><dt>Lage</dt><dd>Direkt nebenan</dd><dt>Zustand</dt><dd>Verfallen, mit Potenzial</dd></dl>
-    </li>
-  </ul>
-
-  <div class="wide yesno reveal">
-    <div class="yes">
-      <span class="label">Gibt es</span>
-      <ul>
-        <li>Dachterrasse mit Panorama<small>Pergola, Sonnensegel, Hängematte, große Granitkiesel vom Strand gegen den Wind.</small></li>
-        <li>Deckenventilatoren in allen Aufenthaltsräumen<small>Stufe 5 ist die langsamste.</small></li>
-        <li>Kleine Gaszentralheizung<small>Nicht perfekt. Im Winter warme Kleidung einpacken, an feuchten Tagen fühlt es sich kälter an, als das Thermometer sagt.</small></li>
-        <li>Komplette Ausstattung<small>Bettwäsche, Handtücher, Decken, Badeschuhe, Schnorchel, Strandschirm, Regenschirme, Yogamatten, Einkaufstaschen.</small></li>
-        <li>Waschmaschine und Spülmaschine</li>
-        <li>Wassertank auf dem Dach<small>Für die Tage, an denen das Leitungswasser in Joppolo ausfällt.</small></li>
-        <li>Quellwasser oben am Platz<small>Der abendliche Gang mit den Flaschen hat Kultfaktor.</small></li>
-      </ul>
-    </div>
-    <div class="no">
-      <span class="label">Gibt es nicht</span>
-      <ul>
-        <li>WLAN<small>5G und Hotspot übers Handy funktionieren wunderbar, auch für Videokonferenzen. Bei großem Datenhunger: italienische SIM-Karte.</small></li>
-        <li>Klimaanlage<small>Ein Splitgerät pro Etage ist in Planung. Bis dahin: Ventilatoren, Rollläden, Fensterläden.</small></li>
-        <li>Reinigungsservice<small>Man hinterlässt die Wohnung so, wie man sie selbst gern vorfinden will.</small></li>
-        <li>Mehr als 3 Kilowatt Strom<small>Italienische Anschlussleistung. Nicht alle Stromfresser gleichzeitig.</small></li>
-        <li>Fernseher<small>Eine kleine Bluetooth-Box gibt es, ein Beamer ist geplant.</small></li>
-        <li>Sandstrand vor der Tür<small>Felsbrocken und Badeschuhe. Die Sandstrände liegen in Nicotera Marina und am Capo Vaticano.</small></li>
-        <li>Ein Weg für Rollkoffer<small>Hundert Höhenmeter vom Bahnhof. Rucksack.</small></li>
-      </ul>
-    </div>
+  <figure class="portrait reveal">
+    <img src="assets/img/haus-fassade-1024.webp"
+         srcset="assets/img/haus-fassade-480.webp 480w, assets/img/haus-fassade-960.webp 960w, assets/img/haus-fassade-1024.webp 1024w"
+         sizes="(min-width: 36rem) 34rem, 100vw" width="1024" height="1816" loading="lazy" decoding="async"
+         alt="Die Hausfassade: helles Haus mit Balkon, Fensterläden und oben dem Geländer der Dachterrasse vor blauem Himmel.">
+    <figcaption>Die Fassade nach Süden, zum Meer. Wird irgendwann frisch gestrichen, dann kommt der Bauhausstil wieder raus.</figcaption>
+  </figure>
+  <div class="col" style="margin-top:var(--space-s)">
+    <p><span class="runin">C’è.</span> Eine Dachterrasse mit Panorama. Deckenventilatoren in allen Aufenthaltsräumen, Stufe 5 ist die langsamste. Eine kleine Gaszentralheizung, nicht perfekt, im Winter warme Kleidung einpacken. Die komplette Ausstattung: Bettwäsche, Handtücher, Decken, Badeschuhe, Schnorchel, Strandschirm, Regenschirme, Yogamatten, Einkaufstaschen. Waschmaschine und Spülmaschine. Ein Wassertank auf dem Dach für die Tage, an denen das Leitungswasser ausfällt. Und Quellwasser oben am Platz, der abendliche Gang mit den Flaschen hat Kultfaktor.</p>
+    <p><span class="runin">Non c’è.</span> WLAN. 5G und Hotspot übers Handy funktionieren wunderbar, auch für Videokonferenzen. Keine Klimaanlage, ein Splitgerät pro Etage ist in Planung, bis dahin Ventilatoren, Rollläden, Fensterläden. Kein Reinigungsservice, man hinterlässt die Wohnung so, wie man sie selbst gern vorfinden will. Nicht mehr als drei Kilowatt Strom, also nicht alle Stromfresser gleichzeitig. Kein Fernseher, eine kleine Bluetooth-Box gibt es, ein Beamer ist geplant. Kein Sandstrand vor der Tür, sondern Felsbrocken und Badeschuhe, die Sandstrände liegen in Nicotera Marina und am Capo Vaticano. Und kein Weg für Rollkoffer: hundert Höhenmeter vom Bahnhof, Rucksack.</p>
   </div>
-
-  <div class="wide grid-3 offset reveal">
+  <div class="pair reveal">
     <figure>
       <img src="assets/img/terrasse-606.webp" srcset="assets/img/terrasse-480.webp 480w, assets/img/terrasse-606.webp 606w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="606" height="341" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="606" height="341" loading="lazy" decoding="async"
            alt="Eine Terrasse mit Topfpflanzen und Kakteen auf der Brüstung, dahinter Dächer, das Meer und ein bewölkter Himmel.">
-      <figcaption><span>Terrasse mit Topfpflanzen über den Dächern.</span><span>Joppolo</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/daecher-606.webp" srcset="assets/img/daecher-480.webp 480w, assets/img/daecher-606.webp 606w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="606" height="341" loading="lazy" decoding="async"
-           alt="Die alten Ziegeldächer des Borgo von oben, dahinter Hänge und die Küste.">
-      <figcaption><span>Alte Dächer von oben, dahinter die Küste.</span><span>Joppolo</span></figcaption>
+      <figcaption>Terrasse mit Topfpflanzen über den Dächern.</figcaption>
     </figure>
     <figure>
       <img src="assets/img/abend-daecher-606.webp" srcset="assets/img/abend-daecher-480.webp 480w, assets/img/abend-daecher-606.webp 606w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="606" height="342" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="606" height="342" loading="lazy" decoding="async"
            alt="Sonnenuntergang über dem Meer, davor ein Geländer und die Dächer des Ortes.">
-      <figcaption><span>Sonnenuntergang über den Dächern.</span><span>Joppolo</span></figcaption>
+      <figcaption>Sonnenuntergang über den Dächern.</figcaption>
     </figure>
   </div>
 </section>
 
 <section class="section" id="loft">
-  <p class="index label"><span class="n">03</span><span class="l">Das Loft</span></p>
-  <h2>Auszeit mit Blick aufs <em>Mittelmeer.</em></h2>
-  <div class="main prose">
-    <p class="lead">Das Loft ist die untere Wohnung: 50 Quadratmeter, zwei Zimmer, hohe Räume, eine große Wohnküche mit Küchenblock und ein Schreibtisch am Fenster, hinter dem das Meer anfängt. Gedacht für Aufenthalte von etwa drei Monaten: Workation, Sprachaufenthalt, ein Projekt, eine Auszeit.</p>
-    <p>Möbliert und komplett eingerichtet, mit Boxspringbett, Deckenventilatoren, Zentralheizung, Waschmaschine und einem Bad mit Dusche und Wanne. Das zweite Zimmer ist Arbeitszimmer, Gästezimmer oder beides.</p>
-    <p>Verfügbarkeit, Miete und Nebenkosten stehen im aktuellen Inserat. Dort geht auch die Anfrage am einfachsten: <a href="https://www.wg-gesucht.de/11318418.html">Zum Inserat auf WG-gesucht</a>.</p>
-    <dl class="specs">
-      <div><dt>Wohnfläche</dt><dd>50 m²</dd></div>
-      <div><dt>Zimmer</dt><dd>Zwei, plus Wohnküche</dd></div>
-      <div><dt>Dauer</dt><dd>Etwa drei Monate</dd></div>
-      <div><dt>Ausstattung</dt><dd>Möbliert, Küche komplett</dd></div>
-      <div><dt>Wärme und Kühle</dt><dd>Gaszentralheizung, Deckenventilatoren</dd></div>
-      <div><dt>Internet</dt><dd>5G-Hotspot übers Handy</dd></div>
-    </dl>
+  <div class="head">
+    <span class="it">Il loft</span>
+    <h2>Auszeit mit Blick aufs <em>Mittelmeer.</em></h2>
   </div>
-  <aside class="aside">
-    <p><span class="label">Das Inserat</span>Im Inserat vom Oktober 2026 steht: drei Monate, April bis Juni 2027. Inserate ändern sich, der Link bleibt: <a href="https://www.wg-gesucht.de/11318418.html">wg-gesucht.de/11318418</a>.</p>
-    <p><span class="label">Für wen</span>Für Leute, die ein paar Monate am Mittelmeer arbeiten, lernen oder einfach sein wollen, ohne Auto und ohne Anspruch auf Perfektion.</p>
-  </aside>
-  <div class="wide grid-3 offset reveal">
-    <figure>
-      <img src="assets/img/loft-kueche-1365.webp"
-           srcset="assets/img/loft-kueche-480.webp 480w, assets/img/loft-kueche-960.webp 960w, assets/img/loft-kueche-1365.webp 1365w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="1365" height="768" loading="lazy" decoding="async"
-           alt="Die Wohnküche im Loft mit Küchenblock, Holzfronten, Stehlampe und einem Fenster, durch das man das Meer sieht.">
-      <figcaption><span>Die Wohnküche, der Esstisch als Tresen am Küchenblock.</span><span>Loft</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/loft-schreibtisch-1024.webp"
-           srcset="assets/img/loft-schreibtisch-480.webp 480w, assets/img/loft-schreibtisch-960.webp 960w, assets/img/loft-schreibtisch-1024.webp 1024w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="1024" height="1816" loading="lazy" decoding="async"
-           alt="Ein weißer Schreibtisch mit Laptop vor dem geöffneten Fenster, draußen Dächer, die Küste und das Meer.">
-      <figcaption><span>Der Workation-Schreibtisch mit Meerblick. Mit den beiden Stühlen auch ein Tisch für ein Dinner zu zweit.</span><span>Loft</span></figcaption>
-    </figure>
+  <div class="col">
+    <p class="lead">Das Loft ist die untere Wohnung: 50 Quadratmeter, zwei Zimmer, hohe Räume, eine große Wohnküche mit Küchenblock und ein Schreibtisch am Fenster, hinter dem das Meer anfängt. Gedacht für Aufenthalte von etwa drei Monaten: Workation, Sprachaufenthalt, ein Projekt, eine Auszeit.</p>
+    <p>Möbliert und komplett eingerichtet, mit Boxspringbett, Deckenventilatoren, Zentralheizung, Waschmaschine und einem Bad mit Dusche und Wanne. Das zweite Zimmer ist Arbeitszimmer, Gästezimmer oder beides. Internet über 5G und das eigene Handy.</p>
+    <p>Verfügbarkeit, Miete und Nebenkosten stehen im aktuellen Inserat, dort geht auch die Anfrage am einfachsten. Im Inserat vom Oktober 2026 steht: drei Monate, April bis Juni 2027. Inserate ändern sich, der Link bleibt.</p>
+    <p class="motto"><a href="https://www.wg-gesucht.de/11318418.html">Zum Inserat auf WG-gesucht</a></p>
+  </div>
+  <figure class="bleed reveal">
+    <img src="assets/img/loft-kueche-1365.webp"
+         srcset="assets/img/loft-kueche-480.webp 480w, assets/img/loft-kueche-960.webp 960w, assets/img/loft-kueche-1365.webp 1365w"
+         sizes="100vw" width="1365" height="768" loading="lazy" decoding="async"
+         alt="Die Wohnküche im Loft mit Küchenblock, Holzfronten, Stehlampe und einem Fenster, durch das man das Meer sieht.">
+    <figcaption>Die Wohnküche, der Esstisch als Tresen am Küchenblock.</figcaption>
+  </figure>
+  <figure class="portrait reveal">
+    <img src="assets/img/loft-schreibtisch-1024.webp"
+         srcset="assets/img/loft-schreibtisch-480.webp 480w, assets/img/loft-schreibtisch-960.webp 960w, assets/img/loft-schreibtisch-1024.webp 1024w"
+         sizes="(min-width: 36rem) 34rem, 100vw" width="1024" height="1816" loading="lazy" decoding="async"
+         alt="Ein weißer Schreibtisch mit Laptop vor dem geöffneten Fenster, draußen Dächer, die Küste und das Meer.">
+    <figcaption>Der Workation-Schreibtisch mit Meerblick. Mit den beiden Stühlen auch ein Tisch für ein Dinner zu zweit.</figcaption>
+  </figure>
+  <div class="pair reveal">
     <figure>
       <img src="assets/img/loft-zimmer-1365.webp"
            srcset="assets/img/loft-zimmer-480.webp 480w, assets/img/loft-zimmer-960.webp 960w, assets/img/loft-zimmer-1365.webp 1365w"
-           sizes="(min-width: 56rem) 23vw, (min-width: 36rem) 45vw, 95vw" width="1365" height="768" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1365" height="768" loading="lazy" decoding="async"
            alt="Das zweite Zimmer im Loft mit Schlafsofa, kleinem weißen Tisch und einem Fenster mit Blick auf Dächer.">
-      <figcaption><span>Das zweite Zimmer: für Workation, zum Schlafen, Wohnen oder Essen.</span><span>Loft</span></figcaption>
+      <figcaption>Das zweite Zimmer: für Workation, zum Schlafen, Wohnen oder Essen.</figcaption>
     </figure>
-  </div>
-  <div class="wide grid-2 reveal">
     <figure>
       <img src="assets/img/loft-schlafzimmer-1365.webp"
            srcset="assets/img/loft-schlafzimmer-480.webp 480w, assets/img/loft-schlafzimmer-960.webp 960w, assets/img/loft-schlafzimmer-1365.webp 1365w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="1365" height="768" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1365" height="768" loading="lazy" decoding="async"
            alt="Schlafzimmer mit Doppelbett, gemusterter Tagesdecke und zwei Nachttischlampen.">
-      <figcaption><span>Das Boxspringbett, 160 mal 200.</span><span>Loft</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/loft-durchblick-1365.webp"
-           srcset="assets/img/loft-durchblick-480.webp 480w, assets/img/loft-durchblick-960.webp 960w, assets/img/loft-durchblick-1365.webp 1365w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="1365" height="768" loading="lazy" decoding="async"
-           alt="Blick vom Schlafzimmer durch die Wohnung zur Küche und zum hellen Fenster, mit Vorhängen und Heizkörper.">
-      <figcaption><span>Blick aus dem Bett bei offener Tür.</span><span>Loft</span></figcaption>
+      <figcaption>Das Boxspringbett, 160 mal 200.</figcaption>
     </figure>
   </div>
 </section>
 
-<section class="section" id="freunde">
-  <p class="index label"><span class="n">04</span><span class="l">Joppolo for Friends</span></p>
-  <h2>In der Anfangszeit: <em>für Freunde.</em></h2>
-  <div class="main prose">
+<section class="section" id="amici">
+  <div class="head">
+    <span class="it">Gli amici</span>
+    <h2>In der Anfangszeit: <em>für Freunde.</em></h2>
+  </div>
+  <div class="col">
     <p class="lead">Das Haus ist in erster Linie für die Vermietung bei mehrmonatigen Aufenthalten und für Sharing-Modelle gedacht. In der Anfangszeit steht es aber vor allem Freunden offen, um das Haus und den Ort zu etablieren.</p>
     <p>„Joppolo for Friends“ heißt das. Nach einem Jahr waren 33 Leute da, 13 davon mehrfach. Zwei haben inzwischen selbst ein Haus mit Meerblick im Borgo gekauft. Wer eingeladen ist, bringt sich ein, wenn er mag: beim Kochen, Einkaufen, Handwerken, Blumengießen, Müllaufsammeln. Vor allem aber soll er den Urlaub genießen.</p>
     <p>Einen Reinigungsservice gibt es nicht, dafür eine Checkliste und die Bitte, die Wohnung so zu hinterlassen, wie man sie selbst gern vorfinden will. Wer dazugehört, kennt den Kalender. Wer nicht, fragt Tim.</p>
+    <p><span class="runin">Video, März 2026.</span> <a href="https://youtu.be/Ot7BAP3niSA">Bellevue</a>, <a href="https://youtu.be/7JTX5MGq5Xk">Loft</a>, <a href="https://youtu.be/j72RRpBUUko">Rustico</a>. Die Videos liegen bei YouTube, erst beim Klick werden dort Daten übertragen.</p>
   </div>
-  <aside class="aside">
-    <span class="label">Videos, März 2026</span>
-    <ul class="links">
-      <li><a href="https://youtu.be/Ot7BAP3niSA">Obere Wohnung „Bellevue“</a><span>YouTube</span></li>
-      <li><a href="https://youtu.be/7JTX5MGq5Xk">Untere Wohnung „Loft“</a><span>YouTube</span></li>
-      <li><a href="https://youtu.be/j72RRpBUUko">Dorfhaus „Rustico“</a><span>YouTube</span></li>
-    </ul>
-    <p class="note" style="margin-top:.75rem">Die Videos liegen bei YouTube. Diese Seite bindet nichts ein, erst beim Klick werden dort Daten übertragen.</p>
-  </aside>
-  <div class="wide grid-2 reveal">
-    <figure>
-      <img src="assets/img/abend-golf-1362.webp"
-           srcset="assets/img/abend-golf-480.webp 480w, assets/img/abend-golf-960.webp 960w, assets/img/abend-golf-1362.webp 1362w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="1362" height="768" loading="lazy" decoding="async"
-           alt="Sonnenuntergang in Rot und Violett über dem Meer, davor die Dächer des Ortes im Dämmerlicht.">
-      <figcaption><span>Sonnenuntergang vom Balkon.</span><span>Stadthaus</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/wasser-felsen-606.webp" srcset="assets/img/wasser-felsen-480.webp 480w, assets/img/wasser-felsen-606.webp 606w"
-           sizes="(min-width: 56rem) 35vw, 95vw" width="606" height="342" loading="lazy" decoding="async"
-           alt="Klares, flaches Wasser über runden Felsen am Ufer.">
-      <figcaption><span>Klares Wasser über Felsen.</span><span>Costa degli Dei</span></figcaption>
-    </figure>
-  </div>
+  <figure class="bleed reveal">
+    <img src="assets/img/abend-golf-1362.webp"
+         srcset="assets/img/abend-golf-480.webp 480w, assets/img/abend-golf-960.webp 960w, assets/img/abend-golf-1362.webp 1362w"
+         sizes="100vw" width="1362" height="768" loading="lazy" decoding="async"
+         alt="Sonnenuntergang in Rot und Violett über dem Meer, davor die Dächer des Ortes im Dämmerlicht.">
+    <figcaption>Sonnenuntergang vom Balkon.</figcaption>
+  </figure>
 </section>
 
-<section class="section" id="anreise">
-  <p class="index label"><span class="n">05</span><span class="l">Anreise</span></p>
-  <h2>Ohne Auto, mit <em>Kondition.</em></h2>
-  <div class="main prose">
+<section class="section" id="arrivare">
+  <div class="head">
+    <span class="it">Come arrivare</span>
+    <h2>Ohne Auto, mit <em>Kondition.</em></h2>
+  </div>
+  <div class="col">
     <p class="lead">Joppolo liegt etwa in der Mitte zwischen den Flughäfen Lamezia Terme und Reggio Calabria. Beide sind Endpunkte der Bahnlinie, die an der Küste entlang in Joppolo hält. Ein Auto braucht man nicht, dafür gute Beine.</p>
-    <ol class="steps">
-      <li>
-        <p><strong>Fliegen.</strong> Ryanair fliegt seit 2024 die drei kalabrischen Flughäfen Lamezia Terme, Reggio Calabria und Crotone an, oft zu sehr günstigen Preisen. Von Lamezia und Reggio fahren Busse zum jeweiligen Hauptbahnhof.</p>
-      </li>
-      <li>
-        <p><strong>Bahn.</strong> Der Regionalzug hält an der Stazione di Joppolo: im Winter sieben bis neun Züge am Tag, im Sommer zwölf, samstags etwas weniger, sonntags sehr wenige. Fahrpläne und Tickets wie zu Hause im DB Navigator oder bei Trenitalia.</p>
-      </li>
-      <li>
-        <p><strong>Zu Fuß hoch.</strong> Vom Bahnhof zum Haus sind es 15 bis 20 Minuten bergauf, zurück 12 bis 15. Hundert Höhenmeter auf einem kleinen Weg, nicht rollkoffergeeignet. Der schönste Teil der Anreise.</p>
-      </li>
-      <li>
-        <p><strong>Oder mit dem Zug von Deutschland.</strong> Nachtzug von München nach Rom oder Eurocity von München nach Bologna, dann mit Frecciarossa oder Italo in den Süden und in Rosarno, 17 Kilometer von Joppolo, oder in Lamezia Terme in den Regionalzug. Italo-Züge gibt es nur auf der Italo-Website.</p>
-      </li>
-      <li>
-        <p><strong>Mit dem Auto.</strong> Durchgehend Autobahn ohne Fähre, ab Salerno mautfrei. Abfahrt Rosarno, dann 20 Minuten Küstenstraße. Nötig ist das Auto nicht, nur schön fürs Hinterland. Mietwagen gibt es auch in Ricadi, Santa Domenica und Tropea.</p>
-      </li>
-    </ol>
+    <p><span class="runin">In aereo.</span> Ryanair fliegt seit 2024 die drei kalabrischen Flughäfen Lamezia Terme, Reggio Calabria und Crotone an, oft zu sehr günstigen Preisen. Von Lamezia und Reggio fahren Busse zum jeweiligen Hauptbahnhof.</p>
+    <p><span class="runin">In treno.</span> Der Regionalzug hält an der Stazione di Joppolo: im Winter sieben bis neun Züge am Tag, im Sommer zwölf, samstags etwas weniger, sonntags sehr wenige. Fahrpläne und Tickets wie zu Hause im DB Navigator oder bei Trenitalia. Von Deutschland aus: Nachtzug von München nach Rom oder Eurocity nach Bologna, dann mit Frecciarossa oder Italo in den Süden und in Rosarno, 17 Kilometer von Joppolo, oder in Lamezia Terme in den Regionalzug. Italo-Züge gibt es nur auf der Italo-Website.</p>
+    <p><span class="runin">A piedi.</span> Vom Bahnhof zum Haus sind es 15 bis 20 Minuten bergauf, zurück 12 bis 15. Hundert Höhenmeter auf einem kleinen Weg, nicht rollkoffergeeignet. Der schönste Teil der Anreise.</p>
+    <p><span class="runin">In macchina.</span> Durchgehend Autobahn ohne Fähre, ab Salerno mautfrei. Abfahrt Rosarno, dann 20 Minuten Küstenstraße. Nötig ist das Auto nicht, nur schön fürs Hinterland. Mietwagen gibt es auch in Ricadi, Santa Domenica und Tropea.</p>
   </div>
-  <aside class="aside">
-    <svg class="map" viewBox="0 0 320 572" role="img" aria-labelledby="map-title">
-      <title id="map-title">Schematischer Linienplan der Küstenbahn: von Lamezia Terme über Pizzo, Tropea und Ricadi nach Joppolo, weiter über Nicotera, Rosarno, Scilla und Villa San Giovanni nach Reggio Calabria. Von der Stazione di Joppolo führt ein Fußweg mit hundert Höhenmetern zur Casa Joppolo.</title>
-      <rect class="sea" x="0" y="0" width="28" height="572"/>
-      <path class="rail" d="M60 36 V534"/>
-      <path class="walk" d="M60 260 C 90 258, 110 240, 140 224"/>
-      <circle class="stop" cx="60" cy="36" r="5"/>
-      <text x="76" y="40" class="big">Lamezia Terme</text>
-      <text x="76" y="54" class="small">Flughafen, Bus zum Bahnhof</text>
-      <circle class="stop" cx="60" cy="96" r="5"/>
-      <text x="76" y="100">Pizzo</text>
-      <circle class="stop" cx="60" cy="140" r="5"/>
-      <text x="76" y="144">Tropea</text>
-      <circle class="stop" cx="60" cy="180" r="5"/>
-      <text x="76" y="184">Ricadi, Capo Vaticano</text>
-      <circle class="here" cx="140" cy="224" r="5"/>
-      <text x="150" y="221" class="big">Casa Joppolo</text>
-      <text x="150" y="235" class="small">Hundert Höhenmeter zu Fuß,</text>
-      <text x="150" y="247" class="small">rauf 15–20 min, runter 12–15 min</text>
-      <circle class="here" cx="60" cy="260" r="6"/>
-      <text x="76" y="272" class="big">Joppolo</text>
-      <text x="76" y="286" class="small">Stazione di Joppolo</text>
-      <circle class="stop" cx="60" cy="330" r="5"/>
-      <text x="76" y="334">Nicotera</text>
-      <circle class="stop" cx="60" cy="376" r="5"/>
-      <text x="76" y="380">Rosarno</text>
-      <text x="76" y="394" class="small">Umsteigen aus Frecciarossa und Italo</text>
-      <circle class="stop" cx="60" cy="440" r="5"/>
-      <text x="76" y="444">Scilla</text>
-      <circle class="stop" cx="60" cy="480" r="5"/>
-      <text x="76" y="484">Villa San Giovanni</text>
-      <text x="76" y="498" class="small">Fähre nach Messina</text>
-      <circle class="stop" cx="60" cy="534" r="5"/>
-      <text x="76" y="538" class="big">Reggio Calabria</text>
-      <text x="76" y="552" class="small">Flughafen, Bus zum Bahnhof</text>
-      <text x="0" y="570" class="small">Küstenbahn, schematisch, nicht maßstäblich</text>
-    </svg>
-  </aside>
+  <svg class="map" viewBox="0 0 320 572" role="img" aria-labelledby="map-title">
+    <title id="map-title">Schematischer Linienplan der Küstenbahn: von Lamezia Terme über Pizzo, Tropea und Ricadi nach Joppolo, weiter über Nicotera, Rosarno, Scilla und Villa San Giovanni nach Reggio Calabria. Von der Stazione di Joppolo führt ein Fußweg mit hundert Höhenmetern zur Casa Joppolo.</title>
+    <rect class="sea" x="0" y="0" width="28" height="572"/>
+    <path class="rail" d="M60 36 V534"/>
+    <path class="walk" d="M60 260 C 90 258, 110 240, 140 224"/>
+    <circle class="stop" cx="60" cy="36" r="5"/>
+    <text x="76" y="41" class="big">Lamezia Terme</text>
+    <text x="76" y="55" class="small">Flughafen, Bus zum Bahnhof</text>
+    <circle class="stop" cx="60" cy="96" r="5"/>
+    <text x="76" y="100">Pizzo</text>
+    <circle class="stop" cx="60" cy="140" r="5"/>
+    <text x="76" y="144">Tropea</text>
+    <circle class="stop" cx="60" cy="180" r="5"/>
+    <text x="76" y="184">Ricadi, Capo Vaticano</text>
+    <circle class="here" cx="140" cy="224" r="5"/>
+    <text x="150" y="222" class="big">Casa Joppolo</text>
+    <text x="150" y="236" class="small">Hundert Höhenmeter zu Fuß,</text>
+    <text x="150" y="248" class="small">rauf 15–20 min, runter 12–15 min</text>
+    <circle class="here" cx="60" cy="260" r="6"/>
+    <text x="76" y="273" class="big">Joppolo</text>
+    <text x="76" y="287" class="small">Stazione di Joppolo</text>
+    <circle class="stop" cx="60" cy="330" r="5"/>
+    <text x="76" y="334">Nicotera</text>
+    <circle class="stop" cx="60" cy="376" r="5"/>
+    <text x="76" y="380">Rosarno</text>
+    <text x="76" y="394" class="small">Umsteigen aus Frecciarossa und Italo</text>
+    <circle class="stop" cx="60" cy="440" r="5"/>
+    <text x="76" y="444">Scilla</text>
+    <circle class="stop" cx="60" cy="480" r="5"/>
+    <text x="76" y="484">Villa San Giovanni</text>
+    <text x="76" y="498" class="small">Fähre nach Messina</text>
+    <circle class="stop" cx="60" cy="534" r="5"/>
+    <text x="76" y="539" class="big">Reggio Calabria</text>
+    <text x="76" y="553" class="small">Flughafen, Bus zum Bahnhof</text>
+  </svg>
+  <p class="note map-caption">Die Küstenbahn, schematisch, nicht maßstäblich.</p>
 </section>
 
-<section class="section" id="umgebung">
-  <p class="index label"><span class="n">06</span><span class="l">Umgebung</span></p>
-  <h2>Strände, Lost Places und bei klarer Sicht <em>der Ätna.</em></h2>
-  <div class="main prose">
-    <p class="lead">Vom Haus aus liegen einem das Villenviertel von Joppolo und das glitzernde Tyrrhenische Meer zu Füßen. Im Osten der weiße Streifen des Sandstrands von Nicotera Marina, dann die nachts hell erleuchteten Kräne des Containerhafens von Gioia Tauro und das bis zu 2.000 Meter hohe Aspromonte. Durch die Straße von Messina kann man direkt hindurchschauen, nachts blinkt dort ein rotes Leuchtfeuer. Im Westen die Liparischen Inseln, und bei sehr guter Sicht hinter den sizilianischen Bergen der 110 Kilometer entfernte Ätna. Nur den Stromboli muss man sich unten am Lungomare anschauen, vom Haus aus versteckt er sich hinter dem Bergrücken.</p>
-    <p><strong>Zu Fuß.</strong> Der ausgeschilderte Wanderweg Mare e Monti führt fast am Haus vorbei, vom Meer bis zur Wallfahrtskirche oberhalb von Caroniti. Spektakulär ist der Höhenweg von Caroniti zum Aussichtspunkt Richtung Capo Vaticano, oder die Wanderung am Meer entlang nach Nicotera Marina. Abenteuerlich und wildromantisch: die Schlucht östlich von Calafoniti.</p>
-    <p><strong>Ins Wasser.</strong> In Joppolo badet man an den Enden des Lungomare: in der kleinen Felsbucht Spelonga im Westen oder bei den wilden Felsen unterhalb des Torre im Osten, Badeschuhe empfohlen. Der versteckte kleine Sandstrand Tirijiu in einer Bucht vor Coccorino ist ein Geheimtipp. Rund um das Capo Vaticano liegen die großen Traumstrände, Grotticelle außerhalb der Saison menschenleer. Nicotera Marina hat einen kilometerlangen Strand mit karibischem Flair.</p>
-    <p><strong>Mit der Bahn.</strong> Tropea, die „Perle Kalabriens“. Capo Vaticano, Pizzo, Nicotera. Scilla mit Skylla und Charybdis aus der Odyssee. Reggio Calabria mit dem Lungomare unter riesigen Ficusbäumen. Messina mit der Fähre ab Villa San Giovanni. Alles ohne Auto, mit etwas Zeit und Flexibilität, am besten unter der Woche.</p>
-    <p><strong>Im Ort.</strong> Supermarkt mit Frischetheke 300 Meter unterhalb, zwei Tabacchi, Apotheke, Post, Friseur und Rathaus, alles zu Fuß. Eine Bar neben dem Rathaus hat praktisch immer auf. Abends holt man Wasser an der Quelle oben am Platz. In der alten Polizeiwache gibt es gelegentlich Konzerte mit Umtrunk, und die Gottesdienste der Kirche über dem Haus hört man bis in die Hängematte.</p>
+<section class="section" id="dintorni">
+  <div class="head">
+    <span class="it">I dintorni</span>
+    <h2>Strände, Lost Places und bei klarer Sicht <em>der Ätna.</em></h2>
   </div>
-  <aside class="aside">
-    <p><span class="label">Mit dem Auto</span>Lohnt sich vor allem fürs Hinterland: Vibo Valentia mit Altstadt und Burg, das Künstlerdorf Motta, die Grotten von Zungri, das Geisterdorf Papaglionti Vecchia, eine Tagestour ins Aspromonte. Sonntagvormittags ist Markt in Nicotera.</p>
-    <p><span class="label">Anti-Müll-Tipp</span>Eine kleine Tüte mitnehmen und herumliegenden Müll einfach einsammeln, statt sich darüber zu ärgern. Joppolo ist für kalabrische Verhältnisse recht sauber, aber an einigen Stellen ist noch Luft nach oben.</p>
-    <p><span class="label">Lost Places</span>Die ganze Costa degli Dei ist voll von verfallenden, nie fertig gebauten Häusern und kleinen, zum Teil aussterbenden Dorfkernen. Manches ist hässlich, vieles lädt zum Träumen ein, und manches wird gerade liebevoll renoviert.</p>
-  </aside>
-  <div class="full grid-3 offset reveal">
+  <div class="col">
+    <p class="lead">Vom Haus aus liegen einem das Villenviertel von Joppolo und das glitzernde Tyrrhenische Meer zu Füßen.</p>
+    <p>Im Osten der weiße Streifen des Sandstrands von Nicotera Marina, dann die nachts hell erleuchteten Kräne des Containerhafens von Gioia Tauro und das bis zu 2.000 Meter hohe Aspromonte. Durch die Straße von Messina kann man direkt hindurchschauen, nachts blinkt dort ein rotes Leuchtfeuer. Im Westen die Liparischen Inseln, und bei sehr guter Sicht hinter den sizilianischen Bergen der 110 Kilometer entfernte Ätna. Nur den Stromboli muss man sich unten am Lungomare anschauen, vom Haus aus versteckt er sich hinter dem Bergrücken.</p>
+    <p><span class="runin">A piedi.</span> Der ausgeschilderte Wanderweg Mare e Monti führt fast am Haus vorbei, vom Meer bis zur Wallfahrtskirche oberhalb von Caroniti. Spektakulär ist der Höhenweg von Caroniti zum Aussichtspunkt Richtung Capo Vaticano, oder die Wanderung am Meer entlang nach Nicotera Marina. Abenteuerlich und wildromantisch: die Schlucht östlich von Calafoniti.</p>
+    <p><span class="runin">In acqua.</span> In Joppolo badet man an den Enden des Lungomare: in der kleinen Felsbucht Spelonga im Westen oder bei den wilden Felsen unterhalb des Torre im Osten, Badeschuhe empfohlen. Der versteckte kleine Sandstrand Tirijiu in einer Bucht vor Coccorino ist ein Geheimtipp. Rund um das Capo Vaticano liegen die großen Traumstrände, Grotticelle außerhalb der Saison menschenleer. Nicotera Marina hat einen kilometerlangen Strand mit karibischem Flair.</p>
+    <p><span class="runin">In treno.</span> Tropea, die „Perle Kalabriens“. Capo Vaticano, Pizzo, Nicotera. Scilla mit Skylla und Charybdis aus der Odyssee. Reggio Calabria mit dem Lungomare unter riesigen Ficusbäumen. Messina mit der Fähre ab Villa San Giovanni. Alles ohne Auto, mit etwas Zeit und Flexibilität, am besten unter der Woche.</p>
+    <p><span class="runin">In macchina.</span> Lohnt sich vor allem fürs Hinterland: Vibo Valentia mit Altstadt und Burg, das Künstlerdorf Motta, die Grotten von Zungri, das Geisterdorf Papaglionti Vecchia, eine Tagestour ins Aspromonte. Sonntagvormittags ist Markt in Nicotera.</p>
+    <p><span class="runin">In paese.</span> Supermarkt mit Frischetheke 300 Meter unterhalb, zwei Tabacchi, Apotheke, Post, Friseur und Rathaus, alles zu Fuß. Eine Bar neben dem Rathaus hat praktisch immer auf. Abends holt man Wasser an der Quelle oben am Platz. In der alten Polizeiwache gibt es gelegentlich Konzerte mit Umtrunk, und die Gottesdienste der Kirche über dem Haus hört man bis in die Hängematte.</p>
+    <p class="note">Tims Tipp gegen den Ärger über Müll: eine kleine Tüte mitnehmen und einsammeln, was herumliegt. Joppolo ist für kalabrische Verhältnisse recht sauber, aber an einigen Stellen ist noch Luft nach oben.</p>
+  </div>
+  <figure class="bleed reveal">
+    <img src="assets/img/kueste-felsen-1362.webp"
+         srcset="assets/img/kueste-felsen-480.webp 480w, assets/img/kueste-felsen-960.webp 960w, assets/img/kueste-felsen-1362.webp 1362w"
+         sizes="100vw" width="1362" height="767" loading="lazy" decoding="async"
+         alt="Steilküste mit grünen Hängen, türkisfarbenem Wasser und kleinen Buchten.">
+    <figcaption>Vom Aussichtspunkt am Capo Vaticano.</figcaption>
+  </figure>
+  <div class="pair reveal">
     <figure>
-      <img src="assets/img/blick-golf-1362.webp"
-           srcset="assets/img/blick-golf-480.webp 480w, assets/img/blick-golf-960.webp 960w, assets/img/blick-golf-1362.webp 1362w"
-           sizes="(min-width: 56rem) 30vw, (min-width: 36rem) 45vw, 95vw" width="1362" height="768" loading="lazy" decoding="async"
-           alt="Blick über rote Ziegeldächer auf den Golf von Gioia Tauro, die grüne Küste und einen langen hellen Sandstrand.">
-      <figcaption><span>Der Blick vom Küchenfenster auf den Golf von Gioia Tauro, hinten der Sandstrand von Nicotera Marina.</span><span>Loft</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/kueste-felsen-1362.webp"
-           srcset="assets/img/kueste-felsen-480.webp 480w, assets/img/kueste-felsen-960.webp 960w, assets/img/kueste-felsen-1362.webp 1362w"
-           sizes="(min-width: 56rem) 30vw, (min-width: 36rem) 45vw, 95vw" width="1362" height="767" loading="lazy" decoding="async"
-           alt="Steilküste mit grünen Hängen, türkisfarbenem Wasser und kleinen Buchten.">
-      <figcaption><span>Vom Aussichtspunkt am Capo Vaticano.</span><span>Costa degli Dei</span></figcaption>
+      <img src="assets/img/strand-bucht-1362.webp"
+           srcset="assets/img/strand-bucht-480.webp 480w, assets/img/strand-bucht-960.webp 960w, assets/img/strand-bucht-1362.webp 1362w"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1362" height="768" loading="lazy" decoding="async"
+           alt="Kleine Bucht mit Sandstrand zwischen Felsen, dahinter eine Steilküste.">
+      <figcaption>Einer der Traumstrände am Capo Vaticano, eine Bahnstation von Joppolo.</figcaption>
     </figure>
     <figure>
       <img src="assets/img/kueste-strand-1363.webp"
            srcset="assets/img/kueste-strand-480.webp 480w, assets/img/kueste-strand-960.webp 960w, assets/img/kueste-strand-1363.webp 1363w"
-           sizes="(min-width: 56rem) 30vw, (min-width: 36rem) 45vw, 95vw" width="1363" height="768" loading="lazy" decoding="async"
+           sizes="(min-width: 36rem) 50vw, 100vw" width="1363" height="768" loading="lazy" decoding="async"
            alt="Kiesstrand mit Brandung, dahinter grüne Hänge und ein Ort an der Küste.">
-      <figcaption><span>Die weite Bucht von Joppolo, vom Torre aus gesehen.</span><span>Joppolo</span></figcaption>
-    </figure>
-  </div>
-  <div class="full grid-5 reveal">
-    <figure>
-      <img src="assets/img/bucht-tuerkis-606.webp" srcset="assets/img/bucht-tuerkis-480.webp 480w, assets/img/bucht-tuerkis-606.webp 606w"
-           sizes="(min-width: 56rem) 18vw, (min-width: 36rem) 30vw, 45vw" width="606" height="342" loading="lazy" decoding="async"
-           alt="Türkisfarbene Bucht mit kleinem Strand zwischen bewachsenen Felsen.">
-      <figcaption><span>Türkisfarbene Bucht.</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/strand-sand-606.webp" srcset="assets/img/strand-sand-480.webp 480w, assets/img/strand-sand-606.webp 606w"
-           sizes="(min-width: 56rem) 18vw, (min-width: 36rem) 30vw, 45vw" width="606" height="342" loading="lazy" decoding="async"
-           alt="Heller Sandstrand mit großen Felsblöcken und klarem Wasser.">
-      <figcaption><span>Sand zwischen Felsen.</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/torre-606.webp" srcset="assets/img/torre-480.webp 480w, assets/img/torre-606.webp 606w"
-           sizes="(min-width: 56rem) 18vw, (min-width: 36rem) 30vw, 45vw" width="606" height="341" loading="lazy" decoding="async"
-           alt="Ein alter runder Wachturm aus Stein über der Küste, davor Kakteen, dahinter das Meer.">
-      <figcaption><span>Wachturm an der Küste.</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/kirche-kueste-606.webp" srcset="assets/img/kirche-kueste-480.webp 480w, assets/img/kirche-kueste-606.webp 606w"
-           sizes="(min-width: 56rem) 18vw, (min-width: 36rem) 30vw, 45vw" width="606" height="342" loading="lazy" decoding="async"
-           alt="Helle Kirchenfassade auf einer Anhöhe, dahinter die Ebene und der lange Strand.">
-      <figcaption><span>Kirche über der Küste.</span></figcaption>
-    </figure>
-    <figure>
-      <img src="assets/img/strand-bucht-1362.webp" srcset="assets/img/strand-bucht-480.webp 480w, assets/img/strand-bucht-960.webp 960w"
-           sizes="(min-width: 56rem) 18vw, (min-width: 36rem) 30vw, 45vw" width="1362" height="768" loading="lazy" decoding="async"
-           alt="Kleine Bucht mit Sandstrand zwischen Felsen, dahinter eine Steilküste.">
-      <figcaption><span>Einer der Traumstrände am Capo Vaticano, eine Bahnstation von Joppolo.</span></figcaption>
+      <figcaption>Die weite Bucht von Joppolo, vom Torre aus gesehen.</figcaption>
     </figure>
   </div>
 </section>
 
-<section class="section" id="kontakt">
-  <p class="index label"><span class="n">07</span><span class="l">Kontakt</span></p>
-  <h2>Ci vediamo <em>a Joppolo.</em></h2>
-  <div class="main contact">
-    <p class="note" style="font-size:var(--t-0);margin-bottom:1.5rem">So unterschreibt Tim seine Post an Freunde. Fragen, Ideen, Korrekturen: einfach schreiben.</p>
-    <p><span class="label">Eigentümer</span>Tim Lehmann<br><a href="mailto:tim.c.lehmann@gmail.com">tim.c.lehmann@gmail.com</a></p>
-    <p class="note" style="font-size:var(--t-0)">Fürs Loft am einfachsten über <a href="https://www.wg-gesucht.de/11318418.html">das Inserat auf WG-gesucht</a>. Freunde wissen, wie sie Tim erreichen.</p>
+<section class="section" id="contatti">
+  <div class="head">
+    <span class="it">Contatti</span>
+    <h2>Ci vediamo <em>a Joppolo.</em></h2>
   </div>
-  <aside class="aside">
-    <span class="label">Anschrift</span>
-    <address>Casa Joppolo<br>Loft: Traversa di Largo Lanzari 11<br>89863 Joppolo (VV), Italien</address>
-  </aside>
+  <div class="col center">
+    <p class="note" style="margin-bottom:1.5rem">So unterschreibt Tim seine Post an Freunde. Fragen, Ideen, Korrekturen: einfach schreiben.</p>
+    <p class="contact">Tim Lehmann<br><a href="mailto:tim.c.lehmann@gmail.com">tim.c.lehmann@gmail.com</a></p>
+    <p class="note" style="margin-top:1.5rem">Fürs Loft am einfachsten über <a href="https://www.wg-gesucht.de/11318418.html">das Inserat auf WG-gesucht</a>.<br>Casa Joppolo, Loft: Traversa di Largo Lanzari 11, 89863 Joppolo (VV), Italien.</p>
+  </div>
 </section>
 
 </main>
 
-<footer class="footer label">
-  <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><path class="sun" d="M8.5 17a7.5 7.5 0 0 1 15 0z"/><path d="M3 20.5h26"/><path d="M6 26h20" opacity=".5"/></svg>
-  <p style="margin:0">© 2026 Tim Lehmann · Entwurf, Stand Oktober 2026</p>
-  <ul>
-    <li><a href="impressum.html">Impressum</a></li>
-    <li><a href="datenschutz.html">Datenschutz</a></li>
-  </ul>
+<footer class="footer">
+  <svg class="sun" viewBox="0 0 32 32" aria-hidden="true"><path d="M8.5 17a7.5 7.5 0 0 1 15 0z"/><path d="M3 19.5h26v2H3z"/></svg>
+  <p style="margin:0">© 2026 Tim Lehmann · Entwurf, Oktober 2026 · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
 </footer>
 
-</div>
 </body>
 </html>

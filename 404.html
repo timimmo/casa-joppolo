@@ -7,21 +7,21 @@
 <meta name="robots" content="noindex">
 <style>
   /* Eigenständig, weil die 404-Seite unter jedem Pfad ausgeliefert wird und relative Pfade dann nicht stimmen. */
-  :root { color-scheme: light dark; --paper: #f3eee3; --ink: #16171a; --accent: #b4452a; --muted: #6d6a62; }
-  @media (prefers-color-scheme: dark) { :root { --paper: #121418; --ink: #ebe5d8; --accent: #e3825d; --muted: #9a958a; } }
+  :root { color-scheme: light dark; --paper: #f7f2e9; --ink: #15161a; --accent: #0f5aa8; --muted: #6d6a62; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #0b1420; --ink: #f1ebe0; --accent: #7db6ff; --muted: #9a958a; } }
   html { background: var(--paper); color: var(--ink); font-family: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 1.5rem; box-sizing: border-box; }
   main { max-width: 36rem; }
-  .label { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+  .label { font-family: "Bodoni 72", Didot, "Bodoni Moda", "Times New Roman", serif; font-style: italic; color: var(--accent); font-size: 1rem; }
   h1 { font-family: "Bodoni 72", Didot, "Bodoni Moda", "Times New Roman", serif; font-weight: 500; font-size: clamp(2rem, 1.3rem + 3vw, 3.5rem); line-height: 1; margin: .75rem 0 1.25rem; letter-spacing: -.01em; }
   p { font-size: 1.15rem; line-height: 1.45; margin: 0; }
-  a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: .16em; }
+  a { color: var(--accent); text-underline-offset: .16em; }
   a:hover { color: var(--accent); }
 </style>
 </head>
 <body>
 <main>
-  <p class="label">404 · Casa Joppolo</p>
+  <p class="label">Casa Joppolo</p>
   <h1>Diese Seite gibt es nicht.</h1>
   <p>Vielleicht ist sie ein Lost Place. <a href="https://timimmo.github.io/casa-joppolo/">Zur Startseite</a>.</p>
 </main>
