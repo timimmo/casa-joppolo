@@ -1,0 +1,4 @@
+.DS_Store
+temp/
+*.csv
+node_modules/
