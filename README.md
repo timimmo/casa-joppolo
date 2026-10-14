@@ -11,7 +11,7 @@ Stand Oktober 2026: **Entwurf.** Die Seite ist mit `noindex` markiert, bis der E
 
 ## Aufbau
 
-Reines HTML und CSS, ein kleines Skript ohne Abhängigkeiten, kein Build. GitHub Pages liefert den Inhalt von `main` direkt aus. Alle Pfade sind relativ, weil die Seite unter `timimmo.github.io/casa-joppolo/` in einem Unterpfad läuft.
+Reines HTML und CSS, ein kleines Skript ohne Abhängigkeiten, kein Build. GitHub Pages liefert den Inhalt von `main` direkt aus. Alle Pfade sind relativ, weil die Seite unter `casa-joppolo.de` läuft (vorher im Unterpfad `timimmo.github.io/casa-joppolo/`, deshalb bleiben alle Pfade relativ).
 
 ```
 index.html          Einseiter: Per chi, La casa, Il prezzo, Lavorare, Il paese, Le stagioni, Arrivare, Da dove, Richiesta
