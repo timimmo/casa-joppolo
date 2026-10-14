@@ -14,15 +14,18 @@ Stand Oktober 2026: **Entwurf.** Die Seite ist mit `noindex` markiert, bis der E
 Reines HTML und CSS, ein kleines Skript ohne Abhängigkeiten, kein Build. GitHub Pages liefert den Inhalt von `main` direkt aus. Die Seite läuft unter https://casa-joppolo.de (Datei `CNAME`). Alle Pfade sind relativ, damit sie auch unter `timimmo.github.io/casa-joppolo/` funktioniert.
 
 ```
-index.html          Einseiter: Per chi, La casa, Il prezzo, Lavorare, Il paese, Le stagioni, Arrivare, Da dove, Richiesta
+index.html          Einseiter: Per chi, La casa, Il prezzo, Lavorare, Il paese, Le stagioni, Camminare, Arrivare, Da dove, Richiesta
 impressum.html      Impressum und Quellen
 datenschutz.html    Datenschutz
+en/                 Dieselbe Seite auf Englisch (index.html, imprint.html, privacy.html); Flaggen oben rechts schalten um
 404.html            Fehlerseite (eigenständig, ohne relative Pfade)
 assets/css/site.css Stylesheet
 assets/js/site.js   Einblenden der Abschnitte, aktive Navigation, Kartenausschnitt auf dem Handy; ohne JS ist alles sichtbar
 assets/fonts/       Schriften, selbst gehostet, mit Lizenzen
-assets/img/         Fotos als WebP in mehreren Breiten, Grundriss, og.jpg für Link-Vorschauen
+assets/img/         Fotos als WebP in mehreren Breiten, Grundriss, og.jpg und og-en.jpg für Link-Vorschauen
 ```
+
+Beide Sprachfassungen sind eins zu eins: Jede Änderung an `index.html` gehört auch nach `en/index.html` (gleiche Struktur, Pfade dort mit `../assets/`).
 
 Alles in diesem Repository ist öffentlich abrufbar. Nichts hier ablegen, was nicht veröffentlicht werden soll.
 

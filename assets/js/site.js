@@ -54,8 +54,11 @@
   /* 3. Lightbox: jedes Foto öffnet groß in einem nativen Dialog. */
   var figs = Array.prototype.slice.call(document.querySelectorAll('main figure img'));
   if (figs.length && window.HTMLDialogElement) {
-    var dlg = document.createElement('dialog'); dlg.className = 'lightbox'; dlg.setAttribute('aria-label', 'Bild groß');
-    dlg.innerHTML = '<button class="lb-close" type="button" aria-label="Schließen">×</button><button class="lb-prev" type="button" aria-label="Vorheriges Bild">‹</button><img alt=""><button class="lb-next" type="button" aria-label="Nächstes Bild">›</button><p class="lb-cap"></p>';
+    var en = (root.lang || '').slice(0, 2) === 'en';
+    var t = en ? { dlg: 'Image enlarged', close: 'Close', prev: 'Previous image', next: 'Next image' }
+               : { dlg: 'Bild groß', close: 'Schließen', prev: 'Vorheriges Bild', next: 'Nächstes Bild' };
+    var dlg = document.createElement('dialog'); dlg.className = 'lightbox'; dlg.setAttribute('aria-label', t.dlg);
+    dlg.innerHTML = '<button class="lb-close" type="button" aria-label="' + t.close + '">×</button><button class="lb-prev" type="button" aria-label="' + t.prev + '">‹</button><img alt=""><button class="lb-next" type="button" aria-label="' + t.next + '">›</button><p class="lb-cap"></p>';
     document.body.appendChild(dlg);
     var img = dlg.querySelector('img'), cap = dlg.querySelector('.lb-cap'), idx = 0;
     function largest(el) {

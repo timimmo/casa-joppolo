@@ -121,6 +121,12 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 .nav a { color: var(--ink); background: none; padding: .9rem 0; display: inline-block; border-bottom: 2px solid transparent; transition: color var(--d-hover), border-color var(--d-hover); }
 .nav a:hover, .nav a[aria-current="true"] { color: var(--blue); border-color: var(--blue); }
 @media (max-width: 56rem) { .nav { gap: 1rem; } .brand { font-size: 1.15rem; } }
+/* Sprachwahl: zwei kleine Flaggen rechts, die aktive voll, die andere gedämpft */
+.header nav { margin-inline-start: auto; }
+.lang { display: flex; gap: .6rem; align-items: center; flex: 0 0 auto; }
+.lang a { display: block; background: none; padding: 0; line-height: 0; border-radius: 2px; box-shadow: 0 0 0 1px var(--stone); opacity: .5; transition: opacity var(--d-hover); }
+.lang a:hover, .lang a:focus-visible, .lang a[aria-current] { opacity: 1; }
+.lang svg { width: 22px; height: 15px; display: block; border-radius: 2px; }
 
 /* Bühne */
 .hero { padding-top: clamp(2rem, 5vw, 4rem); }
