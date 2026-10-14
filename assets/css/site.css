@@ -161,7 +161,7 @@ a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
 /* Bilder: klein, beschriftet, in Reihen */
 figure { margin: 0; }
 figure img { display: block; width: 100%; height: auto; }
-figure:not(.drawing) img { filter: saturate(.85) contrast(.97); }
+figure:not(.drawing) img { filter: saturate(.92); }
 .wide img { aspect-ratio: 3 / 2; object-fit: cover; max-height: 60vh; }
 figcaption { font-family: var(--serif); font-style: italic; font-size: 1.1rem; line-height: 1.4; color: color-mix(in oklab, var(--ink) 78%, var(--paper)); padding-top: .55rem; }
 figcaption .k { font-style: normal; color: var(--muted); margin-right: .5rem; letter-spacing: .12em; }
