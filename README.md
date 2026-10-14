@@ -2,7 +2,7 @@
 
 Website für das Loft in Joppolo, Kalabrien: eine möblierte Wohnung zur Langzeitmiete ab drei Monaten, dazu die obere Wohnung „Bellevue“ und das Dorfhaus „Rustico“. Eigentümer: Tim Lehmann.
 
-Stand Oktober 2026: **Entwurf.** Die Seite ist mit `noindex` markiert, bis der Eigentümer die Inhalte freigegeben hat.
+Seit 14.10.2026 öffentlich und für Suchmaschinen freigegeben (Freigabe durch den Eigentümer in Issue #12).
 
 ## Wie das hier läuft
 
