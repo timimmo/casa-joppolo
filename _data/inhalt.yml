@@ -1,0 +1,28 @@
+# Casa Joppolo: Diese Datei ist die einzige, die du selbst änderst.
+# Regel: Nur den Text zwischen den Anführungszeichen ändern. Zeilen nicht löschen.
+# Nach dem Speichern dauert es etwa eine Minute, bis die Seite neu ist.
+
+# Wann das Loft frei ist. Einmal auf Deutsch, einmal auf Englisch.
+frei_de: "April bis Juni 2027"
+frei_en: "April to June 2027"
+
+# Miete pro Monat in Euro, nur die Zahl.
+miete: "550"
+
+# Kaution in Euro, nur die Zahl.
+kaution: "600"
+
+# Stand der Angaben: Monat/Jahr. Steht unten auf jeder Seite.
+stand: "10/2026"
+
+# Telefon, so wie sie auf der Seite stehen soll.
+telefon: "+49 160 97458658"
+
+# E-Mail-Adresse.
+mail: "tim.c.lehmann@gmail.com"
+
+# Link zum Inserat auf WG-gesucht. Nichts zwischen den Anführungszeichen = der Satz verschwindet.
+wg_link: "https://www.wg-gesucht.de/11318418.html"
+
+# Link zum Video vom Loft. Nichts zwischen den Anführungszeichen = der Satz verschwindet.
+video_link: "https://youtu.be/7JTX5MGq5Xk"

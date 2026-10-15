@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="de">
 <head>
@@ -35,23 +37,23 @@
     <h1>Angaben gemäß § 5 DDG</h1>
     <address>Tim Lehmann<br>Kleinmenower Straße 4<br>16798 Fürstenberg/Havel<br>Deutschland</address>
     <h2>Kontakt</h2>
-    <p>E-Mail: <a href="mailto:tim.c.lehmann@gmail.com">tim.c.lehmann@gmail.com</a></p>
-    <p>Telefon: <a href="tel:+4916097458658">+49 160 97458658</a></p>
+    <p>E-Mail: <a href="mailto:{{ site.data.inhalt.mail }}">{{ site.data.inhalt.mail }}</a></p>
+    <p>Telefon: <a href="tel:{{ site.data.inhalt.telefon | remove: ' ' }}">{{ site.data.inhalt.telefon }}</a></p>
     <h2>Verantwortlich für den Inhalt</h2>
     <p>Tim Lehmann, Anschrift wie oben.</p>
     <h2>Bildnachweis</h2>
     <p>Alle Fotos und der Grundriss stammen vom Eigentümer, Tim Lehmann. Die Lageskizze ist aus Koordinaten gezeichnet, schematisch und nicht maßstäblich. Die fünf kleinen Illustrationen im Stil alter italienischer Reiseplakate sind mit einem KI-Bildmodell (Google Gemini) erzeugt und zeigen keine realen Orte.</p>
     <h2>Quellen</h2>
-    <p>Die Angaben zum Ort stammen aus öffentlichen Quellen, unter anderem ISTAT, Comune di Joppolo, RFI/Trenitalia, SIUSA (Archivportal des Kulturministeriums), INGV, Qualigeo und den Wikipedia-Artikeln zu Joppolo, Costa degli Dei und Ferrovia Tirrenica Meridionale. Klimawerte sind typische Werte für Tropea (10 km nördlich), keine Messungen aus Joppolo. Fahrpläne und Flugverbindungen ändern sich; Stand Oktober 2026.</p>
+    <p>Die Angaben zum Ort stammen aus öffentlichen Quellen, unter anderem ISTAT, Comune di Joppolo, RFI/Trenitalia, SIUSA (Archivportal des Kulturministeriums), INGV, Qualigeo und den Wikipedia-Artikeln zu Joppolo, Costa degli Dei und Ferrovia Tirrenica Meridionale. Klimawerte sind typische Werte für Tropea (10 km nördlich), keine Messungen aus Joppolo. Fahrpläne und Flugverbindungen ändern sich; Stand {{ site.data.inhalt.stand }}.</p>
     <h2>Schriften</h2>
     <p>Diese Seite verwendet <a href="https://github.com/CatharsisFonts/Cormorant">Cormorant Garamond</a> (Christian Thalmann) und <a href="https://github.com/Omnibus-Type/Archivo">Archivo</a> (Omnibus-Type), beide unter der SIL Open Font License 1.1, von dieser Website selbst ausgeliefert.</p>
-    <p class="muted small" style="margin-top:3rem">Stand Oktober 2026</p>
+    <p class="muted small" style="margin-top:3rem">Stand {{ site.data.inhalt.stand }}</p>
   </div>
 </main>
 
 <footer class="footer">
   <div class="wrap">
-    <p style="margin:0">© 2026 Tim Lehmann · Fotos: Tim Lehmann · Stand Oktober 2026</p>
+    <p style="margin:0">© {{ site.data.inhalt.stand | split: "/" | last }} Tim Lehmann · Fotos: Tim Lehmann · Stand {{ site.data.inhalt.stand }}</p>
     <ul>
       <li><a href="./">Startseite</a></li>
       <li><a href="datenschutz.html">Datenschutz</a></li>

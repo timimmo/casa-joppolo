@@ -1,0 +1,3 @@
+# GitHub Pages baut diese Seite mit Jekyll. Die veränderlichen Werte stehen in _data/inhalt.yml,
+# die Seiten lesen sie über Platzhalter ein. Es gibt kein Theme und keine Plugins.
+exclude: [README.md, WARTUNG.md, CLAUDE.md, temp, dokumente, .gitignore]

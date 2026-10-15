@@ -1,5 +1,7 @@
 # casa-joppolo
 
+**Für Timm:** Preis, Verfügbarkeit, Datum, Telefon, Mail und Links änderst du selbst, Anleitung in [WARTUNG.md](WARTUNG.md).
+
 Website für das Loft in Joppolo, Kalabrien: eine möblierte Wohnung zur Langzeitmiete ab drei Monaten, dazu die obere Wohnung „Bellevue“ und das Dorfhaus „Rustico“. Eigentümer: Tim Lehmann.
 
 Seit 14.10.2026 öffentlich und für Suchmaschinen freigegeben (Freigabe durch den Eigentümer in Issue #12).
@@ -11,9 +13,12 @@ Seit 14.10.2026 öffentlich und für Suchmaschinen freigegeben (Freigabe durch d
 
 ## Aufbau
 
-Reines HTML und CSS, ein kleines Skript ohne Abhängigkeiten, kein Build. GitHub Pages liefert den Inhalt von `main` direkt aus. Die Seite läuft unter https://casa-joppolo.de (Datei `CNAME`). Alle Pfade sind relativ, damit sie auch unter `timimmo.github.io/casa-joppolo/` funktioniert.
+Reines HTML und CSS, ein kleines Skript ohne Abhängigkeiten. GitHub Pages baut die Seite mit Jekyll (ohne Theme, ohne Plugins, ohne Actions): Die veränderlichen Werte stehen in `_data/inhalt.yml`, die sechs HTML-Seiten lesen sie über Platzhalter ein; alles andere wird unverändert ausgeliefert. Die Seite läuft unter https://casa-joppolo.de (Datei `CNAME`). Alle Pfade sind relativ, damit sie auch unter `timimmo.github.io/casa-joppolo/` funktioniert.
 
 ```
+_data/inhalt.yml    Die veränderlichen Werte (Preis, Verfügbarkeit, Stand, Kontakt, Links), siehe WARTUNG.md
+_config.yml         Jekyll: nur die Ausschlussliste
+WARTUNG.md          Anleitung für den Eigentümer
 index.html          Einseiter: Per chi, La casa, Il prezzo, Lavorare, Il paese, Le stagioni, Camminare, Arrivare, Da dove, Richiesta
 impressum.html      Impressum und Quellen
 datenschutz.html    Datenschutz

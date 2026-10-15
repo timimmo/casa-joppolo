@@ -1,17 +1,19 @@
+---
+---
 <!doctype html>
 <html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Joppolo, Kalabrien: Wohnung für drei Monate, 550 €</title>
-<meta name="description" content="Möblierte Wohnung mit Schreibtisch und Meerblick zur Langzeitmiete ab drei Monaten. 550 € warm, Bahnhof im Ort, 17 Minuten nach Tropea. Hotspot statt WLAN.">
+<title>Joppolo, Kalabrien: Wohnung für drei Monate, {{ site.data.inhalt.miete }} €</title>
+<meta name="description" content="Möblierte Wohnung mit Schreibtisch und Meerblick zur Langzeitmiete ab drei Monaten. {{ site.data.inhalt.miete }} € warm, Bahnhof im Ort, 17 Minuten nach Tropea. Hotspot statt WLAN.">
 <link rel="canonical" href="https://casa-joppolo.de/">
 <link rel="alternate" hreflang="de" href="https://casa-joppolo.de/">
 <link rel="alternate" hreflang="en" href="https://casa-joppolo.de/en/">
 <link rel="alternate" hreflang="x-default" href="https://casa-joppolo.de/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Joppolo, Kalabrien: Wohnung für drei Monate, 550 €">
-<meta property="og:description" content="Möblierte Wohnung mit Schreibtisch und Meerblick zur Langzeitmiete ab drei Monaten. 550 € warm, Bahnhof im Ort, 17 Minuten nach Tropea.">
+<meta property="og:title" content="Joppolo, Kalabrien: Wohnung für drei Monate, {{ site.data.inhalt.miete }} €">
+<meta property="og:description" content="Möblierte Wohnung mit Schreibtisch und Meerblick zur Langzeitmiete ab drei Monaten. {{ site.data.inhalt.miete }} € warm, Bahnhof im Ort, 17 Minuten nach Tropea.">
 <meta property="og:image" content="https://casa-joppolo.de/assets/img/og.jpg">
 <meta property="og:locale" content="de_DE">
 <meta name="theme-color" content="#f3ecdc">
@@ -62,9 +64,9 @@
     <div class="wrap">
       <dl class="facts">
         <div><dt>Die Wohnung</dt><dd><a href="#casa">50&nbsp;m², zwei Zimmer, Küche und Schreibtisch am Fenster zum Meer</a></dd></div>
-        <div><dt>Der Preis</dt><dd><a href="#prezzo">550&nbsp;€ im Monat warm, Kaution 600&nbsp;€, ab drei Monaten</a></dd></div>
+        <div><dt>Der Preis</dt><dd><a href="#prezzo">{{ site.data.inhalt.miete }}&nbsp;€ im Monat warm, Kaution {{ site.data.inhalt.kaution }}&nbsp;€, ab drei Monaten</a></dd></div>
         <div><dt>Internet</dt><dd><a href="#lavorare">4G, teils 5G über den Hotspot, italienische SIM 9 bis 14&nbsp;€</a></dd></div>
-        <div><dt>Frei</dt><dd><a href="#richiesta">April bis Juni 2027, andere Zeiten auf Anfrage</a></dd></div>
+        <div><dt>Frei</dt><dd><a href="#richiesta">{{ site.data.inhalt.frei_de }}, andere Zeiten auf Anfrage</a></dd></div>
         <div><dt>Anreise</dt><dd><a href="#arrivare">Bahnhof im Ort, 15 bis 20 Minuten bergauf. Flughäfen Lamezia und Reggio</a></dd></div>
       </dl>
     </div>
@@ -72,7 +74,7 @@
   <div class="wrap grid grid-text-media hero-claim">
     <div>
       <h1>Ein Schreibtisch über dem Meer. <em>Drei Monate lang.</em></h1>
-      <p class="lead">Meine möblierte Wohnung in <span class="nobr">Joppolo</span>, Kalabrien, mit Bahnhof im Ort und 17&nbsp;Minuten Zug nach Tropea. 550&nbsp;Euro im Monat, warm. Internet aus der SIM-Karte, Strand aus Felsen, im Winter Gasheizung.</p>
+      <p class="lead">Meine möblierte Wohnung in <span class="nobr">Joppolo</span>, Kalabrien, mit Bahnhof im Ort und 17&nbsp;Minuten Zug nach Tropea. {{ site.data.inhalt.miete }}&nbsp;Euro im Monat, warm. Internet aus der SIM-Karte, Strand aus Felsen, im Winter Gasheizung.</p>
       <p class="cta"><a class="btn" href="#richiesta">Anfrage schreiben</a> <a href="#perchi">Erst lesen, ob es passt</a></p>
     </div>
     <div class="hero-media">
@@ -178,15 +180,15 @@
 <section class="section reveal" id="prezzo">
   <div class="wrap">
     <span class="eyebrow">Il prezzo</span>
-    <h2>550&nbsp;Euro im Monat, warm.</h2>
+    <h2>{{ site.data.inhalt.miete }}&nbsp;Euro im Monat, warm.</h2>
     <div class="grid grid-2">
       <div class="measure">
         <p class="lead">In der Pauschale sind alle laufenden Kosten drin, Gas und Strom eingeschlossen. Wenn du deutlich mehr verbrauchst als üblich, zahlst du den Unterschied; die Grenze steht im Vertrag. Nicht drin: die italienische SIM-Karte.</p>
         <p>Drei Monate aufwärts, Beginn und Ende frei wählbar, angebrochene Monate anteilig. Kürzer geht nach Absprache. Eine Endreinigung gibt es nicht: Du putzt am Ende selbst, oder ich lasse putzen, das kostet 100&nbsp;Euro. Der Mietvertrag ist eine Seite lang, die Kaution ist zugleich die Anzahlung.</p>
       </div>
       <dl class="price">
-        <dt>Miete, warm</dt><dd class="big">550&nbsp;€ im Monat</dd>
-        <dt>Kaution</dt><dd>600&nbsp;€, zugleich Anzahlung</dd>
+        <dt>Miete, warm</dt><dd class="big">{{ site.data.inhalt.miete }}&nbsp;€ im Monat</dd>
+        <dt>Kaution</dt><dd>{{ site.data.inhalt.kaution }}&nbsp;€, zugleich Anzahlung</dd>
         <dt>Mindestdauer</dt><dd>drei Monate, Beginn und Ende frei</dd>
         <dt>Personen</dt><dd>eine oder zwei</dd>
         <dt>Endreinigung</dt><dd>keine, du putzt selbst</dd>
@@ -206,7 +208,7 @@
       <div class="measure">
         <p class="lead">Ein WLAN gibt es nicht. Ich arbeite über den Hotspot meines Handys: 5G und Hotspot funktionieren wunderbar, ich habe so schon lange Videokonferenzen gemacht und Filme gesehen.</p>
         <p>Joppolo hat flächendeckend 4G und teilweise 5G. Was du brauchst, ist eine italienische SIM-Karte: 250 bis 440&nbsp;Gigabyte kosten 9 bis 14&nbsp;Euro im Monat, Läden gibt es in Tropea und am Bahnhof Rosarno. Dein deutscher Vertrag reicht für Mails und einen Film, für drei Monate Videocalls reicht das EU-Datenvolumen nicht.</p>
-        <p>Router und Festnetz gibt es noch nicht; Glasfaser ist im Ort angekündigt, ich bleibe dran. Einen Speedtest aus dem Loft schicke ich dir auf Anfrage.</p>
+        <p>Router und Festnetz gibt es nicht. Einen Speedtest aus dem Loft schicke ich dir auf Anfrage.</p>
       </div>
       <div>
       <figure class="illu" aria-hidden="true">
@@ -323,7 +325,7 @@
     </div>
     <div class="grid grid-2">
       <div class="measure">
-        <p class="lead">In und um Joppolo kann man schön wandern, in Kalabrien in Küstennähe eher eine Seltenheit. Der ausgeschilderte Weg Mare e Monti führt fast am Haus vorbei vom Lungomare über Caroniti auf den Monte Poro, 5&nbsp;Kilometer und 800&nbsp;Höhenmeter. Dazu meine Runden, Stand Oktober 2026:</p>
+        <p class="lead">In und um Joppolo kann man schön wandern, in Kalabrien in Küstennähe eher eine Seltenheit. Der ausgeschilderte Weg Mare e Monti führt fast am Haus vorbei vom Lungomare über Caroniti auf den Monte Poro, 5&nbsp;Kilometer und 800&nbsp;Höhenmeter. Dazu meine Runden, Stand {{ site.data.inhalt.stand }}:</p>
         <h3>Rund um Joppolo</h3>
         <ol class="bullets">
           <li>Panoramarunde über Caroniti</li>
@@ -399,7 +401,7 @@
       </div>
       <div class="measure">
         <p class="lead">Der Bahnhof liegt 700&nbsp;Meter Luftlinie vom Haus, hundert Meter tiefer. Runter sind es 12 bis 15&nbsp;Minuten, rauf 15 bis 20, über Wege und Treppen. Die Regionalbahn fährt die Küste entlang von Lamezia Terme nach Reggio Calabria, beide mit Flughafen.</p>
-        <p><strong>Flug.</strong> Lamezia Terme: ganzjährig ab Frankfurt-Hahn und Memmingen, im Winter 2026/27 auch ab Bremen, saisonal Karlsruhe, Saarbrücken und Wien, dazu Lufthansa, Condor, Eurowings und easyJet. Reggio Calabria: ab Berlin nur im Sommer. Im Winter gibt es keinen Direktflug von Berlin nach Kalabrien. Von beiden Flughäfen fährt ein Bus zum Bahnhof, dann der Zug: aus Lamezia gut eine Stunde, aus Reggio anderthalb; mit Bus und Umsteigen rechne mit zwei.</p>
+        <p><strong>Flug.</strong> Lamezia Terme hat das ganze Jahr Direktflüge aus Deutschland, im Winter weniger; Reggio Calabria nur im Sommer. Welche Airlines gerade fliegen, ändert sich, also aktuell nachsehen. Von beiden Flughäfen fährt ein Bus zum Bahnhof, dann der Zug: aus Lamezia gut eine Stunde, aus Reggio anderthalb; mit Bus und Umsteigen rechne mit zwei.</p>
         <p><strong>Zug.</strong> Nachtzug München–Rom, dann Frecciarossa oder Italo nach Rosarno, wo einzelne halten, oder nach Lamezia Terme; von Rosarno sind es zwei Stationen Regionalzug. Von Berlin etwa 24&nbsp;Stunden, oder mit Zwischenstopp in Bologna, Verona, Florenz.</p>
         <p><strong>Auto.</strong> A2, ab Salerno mautfrei, Abfahrt Rosarno, 16&nbsp;Kilometer Küstenstraße. Vor Ort brauchst du es nicht.</p>
         <p><strong>Züge ab Joppolo.</strong> Etwa alle zwei Stunden, 8 bis 13 am Tag je Richtung, der erste um 6:19, der letzte gegen 21&nbsp;Uhr, sonntags wenige. Tropea 17&nbsp;Minuten, Rosarno 19, Lamezia eine Stunde, Reggio anderthalb, Villa San Giovanni eine Stunde und von dort 20&nbsp;Minuten Fähre nach Messina.</p>
@@ -428,7 +430,7 @@
         <p class="lead">Ich bin Tim, Architekt und Stadtplaner aus Berlin. 2024 habe ich in Joppolo ein Stadthaus mit zwei kleinen Wohnungen gekauft und in zwei Jahren renoviert, 2025 das verfallene Dorfhaus nebenan dazu, als Werkstatt und Lager.</p>
         <p>Seit einem Jahr kommen Freunde: 33 waren da, 13 mehrfach, zwei haben inzwischen selbst ein Haus im Borgo gekauft. Oben wohnen sie, das Loft unten vermiete ich an Leute, die ich noch nicht kenne. Warum hier? Weil Kalabrien nach langer Zeit wieder aufmacht, und weil ich das hier so sehe:</p>
         <blockquote class="quote">„Dennoch ist vieles desolat und in die Jahre gekommen, für mich ist es ein riesiger Lost Place mit unglaublichem Potenzial.“<cite>Aus meinem Leitfaden für Gäste</cite></blockquote>
-        <p>Wer gar nicht mehr weg will: Über Teileigentum an meinen Häusern denke ich nach, und beim Hauskauf in Joppolo helfe ich gern. Auf <span class="nobr">YouTube</span> gibt es <a href="https://youtu.be/7JTX5MGq5Xk">ein Video vom Loft</a>, gedreht im März 2026.</p>
+        <p>Wer gar nicht mehr weg will: Über Teileigentum an meinen Häusern denke ich nach, und beim Hauskauf in Joppolo helfe ich gern. {% if site.data.inhalt.video_link and site.data.inhalt.video_link != "" %}Auf <span class="nobr">YouTube</span> gibt es <a href="{{ site.data.inhalt.video_link }}">ein Video vom Loft</a>, gedreht im März 2026.{% endif %}</p>
       </div>
       <figure class="sticky">
         <img src="assets/img/haus-fassade-1024.webp" srcset="assets/img/haus-fassade-480.webp 480w, assets/img/haus-fassade-960.webp 960w, assets/img/haus-fassade-1024.webp 1024w" sizes="(min-width: 56rem) 38vw, 94vw" width="1024" height="1816" loading="lazy" decoding="async" alt="Die Hausfassade: helles Haus mit Balkon, Fensterläden und oben dem Geländer der Dachterrasse vor blauem Himmel.">
@@ -444,13 +446,13 @@
     <h2>Schreib mir.</h2>
     <div class="grid grid-2">
       <div class="measure">
-        <p class="lead">Eine Mail reicht: wann, wie lange, was du vorhast, ob ihr zu zweit kommt. Ich antworte selbst. Frei ist das Loft von April bis Juni 2027, andere Zeiten auf Anfrage.</p>
-        <p class="cta"><a class="btn" href="mailto:tim.c.lehmann@gmail.com?subject=Loft%20in%20Joppolo&amp;body=Hallo%20Tim%2C%0A%0AWann%3A%20%0AWie%20lange%3A%20%0AWas%20ich%20vorhabe%3A%20%0AAllein%20oder%20zu%20zweit%3A%20%0A%0A">Mail schreiben</a></p>
-        <p class="contact">Tim Lehmann<br><a class="mail" href="mailto:tim.c.lehmann@gmail.com">tim.c.lehmann@gmail.com</a><br><a class="mail" href="tel:+4916097458658">+49 160 97458658</a></p>
+        <p class="lead">Eine Mail reicht: wann, wie lange, was du vorhast, ob ihr zu zweit kommt. Ich antworte selbst. Frei ist das Loft von {{ site.data.inhalt.frei_de }}, andere Zeiten auf Anfrage.</p>
+        <p class="cta"><a class="btn" href="mailto:{{ site.data.inhalt.mail }}?subject=Loft%20in%20Joppolo&amp;body=Hallo%20Tim%2C%0A%0AWann%3A%20%0AWie%20lange%3A%20%0AWas%20ich%20vorhabe%3A%20%0AAllein%20oder%20zu%20zweit%3A%20%0A%0A">Mail schreiben</a></p>
+        <p class="contact">Tim Lehmann<br><a class="mail" href="mailto:{{ site.data.inhalt.mail }}">{{ site.data.inhalt.mail }}</a><br><a class="mail" href="tel:{{ site.data.inhalt.telefon | remove: ' ' }}">{{ site.data.inhalt.telefon }}</a></p>
         <p class="note" style="margin-top:1.25rem">Casa Joppolo, Via Roma 3, 89863 Joppolo (VV), Italien. <a href="https://www.google.com/maps/search/?api=1&amp;query=38.585980%2C15.893654">Auf Google Maps zeigen</a>. Das Loft hat seinen Eingang auf der Rückseite, Traversa di Largo Lanzari 11.</p>
       </div>
       <div class="measure">
-        <p>Das Loft steht auch <a href="https://www.wg-gesucht.de/11318418.html">auf WG-gesucht</a>, falls du lieber dort schreibst.</p>
+        {% if site.data.inhalt.wg_link and site.data.inhalt.wg_link != "" %}<p>Das Loft steht auch <a href="{{ site.data.inhalt.wg_link }}">auf WG-gesucht</a>, falls du lieber dort schreibst.</p>{% endif %}
       </div>
     </div>
   </div>
@@ -460,7 +462,7 @@
 
 <footer class="footer">
   <div class="wrap">
-    <p style="margin:0">© 2026 Tim Lehmann · Fotos und Grundriss: Tim Lehmann · Stand Oktober 2026</p>
+    <p style="margin:0">© {{ site.data.inhalt.stand | split: "/" | last }} Tim Lehmann · Fotos und Grundriss: Tim Lehmann · Stand {{ site.data.inhalt.stand }}</p>
     <ul>
       <li><a href="impressum.html">Impressum</a></li>
       <li><a href="datenschutz.html">Datenschutz</a></li>
