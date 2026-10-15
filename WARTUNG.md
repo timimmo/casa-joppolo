@@ -46,4 +46,4 @@ Dann ist beim Tippen ein Anführungszeichen verloren gegangen oder eine Zeile ve
 
 Sätze, Fotos und neue Abschnitte kannst du nicht über die Datei ändern. Dafür schreibst du wie bisher ein Issue: https://github.com/timimmo/casa-joppolo/issues/new
 
-Das liest Björn, aber nicht mehr sofort. Für alles, was eilt, ruf ihn an.
+Björn schaut dort nur noch ab und zu rein. Rechne also nicht mit einer schnellen Antwort und sammle kleine Wünsche lieber in einem Issue.
